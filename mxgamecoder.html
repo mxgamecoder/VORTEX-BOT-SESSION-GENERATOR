@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ2GBVV4SW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FZ2GBVV4SW');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mxgamecoder session</title>
+    <meta name="description" content="Mxgamecoder: session">
+    <meta name="keywords" content="mxgamecoder">
+    <meta name="author" content="Mxgamecoder"> 
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url('https://files.catbox.moe/msimwy.jpeg'); /* Replace with your image URL */
+      background-size: cover; /* Ensures the image covers the entire screen */
+      background-position: center; /* Centers the image */
+      background-repeat: no-repeat; /* Prevents the image from tiling */
+    }
+
+    .btn-container {
+      position: relative;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      width: 220px;
+      padding: 0.8em 1.75em;
+      background: linear-gradient(45deg, #ff4b2b, #ff416c); /* Mixed gradient */
+      border-radius: 6px;
+      border: none;
+      color: #fff;
+      font-weight: 500;
+      font-size: 18px;
+      font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+      transition: 0.3s;
+      overflow: hidden;
+    }
+
+    /* Rotating border effect with vibrant colors */
+    .border-effect {
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+      border-radius: 12px;
+      border: 6px solid transparent;
+      background-image: linear-gradient(45deg, #ff4b2b, #ff416c, #1e90ff, #32cd32, #ffeb3b, #ff4b2b); /* Vibrant gradient border */
+      background-size: 300% 300%;
+      z-index: -1;
+      animation: rotateBorder 2s linear infinite;
+    }
+
+    /* Border rotation animation */
+    @keyframes rotateBorder {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+
+    .btn:active {
+      transform: scale(0.95);
+    }
+  </style>
+
+</head>
+
+<body>
+  
+  
+
+  <div class="btn-container">
+    <div class="border-effect"></div>
+    <button onclick="window.open(`/wasiqr`)" class="btn">QR Code</button>
+  </div>
+  <div class="btn-container">
+    <div class="border-effect"></div>
+    <button onclick="window.open(`/pair`)" class="btn">Pair Code</button>
+  </div>
+  <div class="btn-container">
+    <div class="border-effect"></div>
+    <button onclick="window.open(`https://github.com/mxgamecoder/ZEN-MD-BOT`)" class="btn">Bot Repo</button>
+  </div>
+  <div class="btn-container">
+    <div class="border-effect"></div>
+    <button onclick="window.open(`https://wa.me/2349021506036`)" class="btn">Contact Me</button>
+  </div>
+  <div class="btn-container">
+    <div class="border-effect"></div>
+    <button onclick="window.open(`https://chat.whatsapp.com/F2JwN4RBlVABhbbEHabGDT`)" class="btn">Wa Channel</button>
+  </div>
+  <div class="btn-container">
+    <div class="border-effect"></div>
+    <button onclick="window.open(`https://www.youtube.com/@mxgamecoder`)" class="btn">Youtube</button>
+  </div>
+
+    <link rel="import" href="./loader.html">
+
+</body>
+</html>
