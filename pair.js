@@ -57,21 +57,21 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by NTEEJ TECH*
-*_Made With NTEEJ TECH_*
+*_Pair Code Connected by MX-GΔMΞCØDΞR*
+*Creator = 𖥘 MX-GΔMΞCØDΞR 𖥘*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU'VE CHOSEN NTEEJ MD 』*
+║ *『 WOW YOU'VE CHOSEN  ZEN-MD-BOT 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❍ *Tgram:* _https://t.me/Nteej_
-║❍ *Owner:* _https://wa.me/714497545_
-║❍ *Repo:* _https://github.com/Ntee-j01/NTEEJ-MD_
-║❍ *WaGroup:* _https://chat.whatsapp.com/Er6RNNNVWV5LORN9Nr6hL7_
-║❍ *WaChannel:* _https://whatsapp.com/channel/0029Vae3GZF9Bb658QgSCl1I_
-║❍ *Plugins:* _https://github.com/Ntee-j01/NTEEJ-MD-PLUGINS_
+║❍ *Tgram:* _https://t.me/Botdeveloperking_
+║❍ *Owner:* _https://wa.me/2349021506036_
+║❍ *Repo:* _https://github.com/mxgamecoder/ZEN-MD-BOT_
+║❍ *WaGroup:* _https://chat.whatsapp.com/G6ofX7mzrDy8m92NMb4FJm_
+║❍ *WaChannel:* _https://whatsapp.com/channel/0029Vavz0e6E50Ugp30Z6z0W_
+║❍ *Plugins:* _https://github.com/mxgamecoder/ ZEN-MD-BOT-PLUGINS_
 ╚════════════════════════╝
 _____________________________________
 
