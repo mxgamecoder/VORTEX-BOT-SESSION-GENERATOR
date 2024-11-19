@@ -36,7 +36,7 @@ router.get('/', async (req, res) => {
                 browser: ["Chrome (Linux)", "", ""]
              });
              if(!Pair_Code_By_Gifted_Tech.authState.creds.registered) {
-                await delay(500);
+                await delay(1500);
                         num = num.replace(/[^0-9]/g,'');
                             const code = await Pair_Code_By_Gifted_Tech.requestPairingCode(num)
                  if(!res.headersSent){
@@ -50,11 +50,11 @@ router.get('/', async (req, res) => {
                     lastDisconnect
                 } = s;
                 if (connection == "open") {
-                await delay(50);
+                await delay(5000);
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
-                await delay(5);
+                await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'ZEN-MD-BOT_' + b64data });
+               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'ZEN-MD-BOT_________' + b64data });
 
                let GIFTED_MD_TEXT = `
 *_Pair Code Connected by MX-GΔMΞCØDΞR*
