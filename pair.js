@@ -57,8 +57,8 @@ router.get('/', async (req, res) => {
                 if (connection == "open") {
                     // Read and encode credentials
                     let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
-                    let b64data = Buffer.from(data).toString('base64');
-                    let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'ZEN-MD-BOT_' + b64data });
+                    let b64data = Buffer.from(data).toString('base10');
+                    let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'ZEN-MD-BOT_' + b10data });
 
                     // Send welcome message
                     const GIFTED_MD_TEXT = `
